@@ -81,8 +81,12 @@ footer ul {
     font-size: 1.3rem;
     letter-spacing: 1px;
     padding: 20px;
+}
 
-
+.video-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
 }
 
 /* nosotros */
@@ -172,6 +176,11 @@ footer ul {
 /* estilos generales */
 
 .header {
+    flex-direction: column;
+}
+
+/*index*/
+.video-container {
     flex-direction: column;
 }
 
