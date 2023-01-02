@@ -148,7 +148,6 @@ footer ul {
 .productos-container img {
     width: 300px;
     height: 300px;
-    padding: 20px;
 }
 
 /* galeria */
@@ -178,6 +177,9 @@ footer ul {
 
 .header {
     flex-direction: column;
+}
+.menu-nav {
+    justify-content: center;
 }
 
 /*index*/
