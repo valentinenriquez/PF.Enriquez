@@ -1,0 +1,22 @@
+.article-info {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.article-info p {
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    padding: 20px;
+}
+
+.video-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+iframe {
+    width: 560px;
+    height: 315px;
+}

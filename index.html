@@ -8,34 +8,73 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="./css/style.css">
     <title>Garden Bzr</title>
 </head>
 
 <body>
     <header>
-        <h1 class="titulo">Garden Bzr</h1>
-        <img src="./img/logogarden.jpg" alt="logo" class="logo" width="150" height="150">
-        <nav class="menu-nav" style="
-            border: 1px solid;
-            padding: 30px;
-            margin: 30px;">
-            <ul>
-                <li><a href="./index.html">Inicio</a></li>
-                <li><a href="./paginas/productos.html">productos</a></li>
-                <li><a href="./paginas/nosotros.html">Nosotros</a></li>
-                <li><a href="./paginas/contacto.html">Contacto</a></li>
-            </ul> 
-        </nav>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="./img/logogarden.jpg" alt="logo" width="150" height="150"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="./index.html">INICIO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./paginas/productos.html">PRODUCTOS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./paginas/nosotros.html">NOSOTROS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./paginas/contacto.html">CONTACTO</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
     <main>
         <!-- <section>
             <img src="./img/logogarden.jpg" alt="imagen principal">
         </section> -->
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./img/carrusel01.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./img/carrusel02.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./img/carrusel03.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
         <section class="video-container">
             <aside>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/KrTQKgv3oxI"
-                    title="YouTube video player" frameborder="0"
+                <iframe src="https://www.youtube.com/embed/KrTQKgv3oxI" title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
             </aside>
@@ -44,56 +83,34 @@
             <article class="article-info">
                 <img src="./img/WhatsApp Image 2022-11-13 at 11.10.07 AM (3).jpeg" />
                 <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus deleniti reprehenderit obcaecati
-                    fugiat iste? Culpa enim, dignissimos maxime reprehenderit nemo, ipsum recusandae laudantium ratione
-                    eum maiores adipisci perspiciatis ab explicabo! Lorem ipsum dolor sit, amet consectetur adipisicing
-                    elit. Pariatur porro tenetur ipsum voluptate nisi laborum quam cumque quidem non voluptates, maxime,
-                    officia dolores delectus cum ipsa sapiente. Laboriosam, quasi ex! Lorem ipsum dolor sit amet
-                    consectetur adipisicing elit. Sint debitis deserunt, exercitationem incidunt aliquam, dicta
-                    explicabo nostrum est commodi tempora vel iure, totam a fugit unde natus quia ipsam dolor. Lorem
-                    ipsum dolor sit, amet consectetur adipisicing elit. Mollitia a, repudiandae voluptas delectus illo
-                    ducimus nam impedit praesentium facere incidunt repellat qui, harum provident ab rem accusamus
-                    doloremque adipisci sapiente. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis
-                    quas suscipit, debitis ex temporibus repudiandae vitae rem quisquam cupiditate, labore totam modi
-                    vel atque voluptas, maiores quasi. Libero, corporis debitis. Lorem ipsum dolor sit amet, consectetur
-                    adipisicing elit. Impedit blanditiis sint ducimus temporibus doloremque at fugit vitae recusandae.
-                    Mollitia consequuntur eius autem asperiores iusto amet nesciunt, illum at veniam harum? Lorem ipsum
-                    dolor, sit amet consectetur adipisicing elit. Dolor sed maxime magnam deleniti doloribus illum esse
-                    animi aperiam. Esse maxime accusamus suscipit dignissimos ad necessitatibus sed pariatur accusantium
-                    natus labore? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis, commodi. Officia, eum
-                    quam. Fuga a odio, illo rerum doloribus error natus ullam eaque eligendi officia quo sed, odit
-                    excepturi accusamus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse tenetur
-                    doloremque ipsam, modi, ab, ratione rerum cumque inventore quos explicabo ad veritatis impedit non
-                    alias numquam tempore a. A, iusto. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut
-                    tenetur accusantium consequuntur laudantium perspiciatis libero accusamus obcaecati, incidunt,
-                    maiores eum magni fugit ex non repellendus ullam! Dolore reprehenderit aliquam nam?
+                  Mesa Tokio Patas Metálicas Negra
+
+                  Mesa Tokio rectangular de plástico negro con orificio central para sombrillas y patas metálicas desmontables, ideales para usar tanto en interiores como exteriores.
+                  
+                  Todos nuestros productos plásticos son fáciles de limpiar, resistentes a los rayos UV y están elaborados para que no dañen el ambiente.
+
+                  <p>ESPECIFICACIONES
+                    Código	F427001
+                    Material	Plástico
+                    Requiere Armado	Si
+                    Material de la Estructura	Metal
+                    Largo	140 cm
+                    Ancho	75 cm
+                    Alto	70 cm
+                    Color	Negro
+                    Garantia	6 Meses</p> 
                 </p>
             </article>
-            <article class="article-info">
+            <article class="article-info reverse">
                 <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus deleniti reprehenderit obcaecati
-                    fugiat iste? Culpa enim, dignissimos maxime reprehenderit nemo, ipsum recusandae laudantium ratione
-                    eum maiores adipisci perspiciatis ab explicabo! Lorem ipsum dolor sit, amet consectetur adipisicing
-                    elit. Pariatur porro tenetur ipsum voluptate nisi laborum quam cumque quidem non voluptates, maxime,
-                    officia dolores delectus cum ipsa sapiente. Laboriosam, quasi ex! Lorem ipsum dolor sit amet
-                    consectetur adipisicing elit. Sint debitis deserunt, exercitationem incidunt aliquam, dicta
-                    explicabo nostrum est commodi tempora vel iure, totam a fugit unde natus quia ipsam dolor. Lorem
-                    ipsum dolor sit, amet consectetur adipisicing elit. Mollitia a, repudiandae voluptas delectus illo
-                    ducimus nam impedit praesentium facere incidunt repellat qui, harum provident ab rem accusamus
-                    doloremque adipisci sapiente. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis
-                    quas suscipit, debitis ex temporibus repudiandae vitae rem quisquam cupiditate, labore totam modi
-                    vel atque voluptas, maiores quasi. Libero, corporis debitis. Lorem ipsum dolor sit amet, consectetur
-                    adipisicing elit. Impedit blanditiis sint ducimus temporibus doloremque at fugit vitae recusandae.
-                    Mollitia consequuntur eius autem asperiores iusto amet nesciunt, illum at veniam harum? Lorem ipsum
-                    dolor, sit amet consectetur adipisicing elit. Dolor sed maxime magnam deleniti doloribus illum esse
-                    animi aperiam. Esse maxime accusamus suscipit dignissimos ad necessitatibus sed pariatur accusantium
-                    natus labore? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis, commodi. Officia, eum
-                    quam. Fuga a odio, illo rerum doloribus error natus ullam eaque eligendi officia quo sed, odit
-                    excepturi accusamus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse tenetur
-                    doloremque ipsam, modi, ab, ratione rerum cumque inventore quos explicabo ad veritatis impedit non
-                    alias numquam tempore a. A, iusto. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut
-                    tenetur accusantium consequuntur laudantium perspiciatis libero accusamus obcaecati, incidunt,
-                    maiores eum magni fugit ex non repellendus ullam! Dolore reprehenderit aliquam nam?
+                  Mesa Eames Vidrio Madera Redonda 90 Cm
+
+                  Mesa de Diseño Eames Redonda fabricado en cristal templado transparente de 90 Cm de Diametro, que deja ver la estructura de la mesa con patas de madera en color natural montada a una estructura metalica resistente. Ideales para ser utilizadas con Sillas y/o Sillones Eames. su aspecto y combinacion de colores brindan un ambiente visual agradable.
+                  
+                  Requiere armado, incluye Kit de Fácil Armado.
+                  <p>ESPECIFICACIONES
+                    Código	T4026
+                    Diámetro Mesa	90 cm</p>
                 </p>
                 <img src="./img/WhatsApp Image 2022-11-13 at 11.10.07 AM (4).jpeg" alt="">
             </article>
@@ -101,12 +118,17 @@
     </main>
 
     <footer>
-        <ul>
-            <li>Facebook</li>
-            <li>Instagram</li>
-            <li>Twitter</li>
-        </ul>
-    </footer>
+      <ul>
+          <a href="https://www.facebook.com/romma.accesories"><i class="bi bi-facebook"></i></a>
+          <a href="https://instagram.com/gardenbzr_?igshid=MDM4ZDc5MmU="><i class="bi bi-instagram"></i></a>
+      </ul>
+  </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
